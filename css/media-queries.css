@@ -62,6 +62,25 @@ h1 {
         display: inline-block
 
     }
+    .main{
+       float: left;
+        margin: auto;
+        text-align: left;
+        width: 60%;
+    }
+   .sub-section{
+       float: right;
+       margin: auto;
+       text-align: left;
+       width: 40%;
+
+
+
+   }
+    body{
+        margin: 2px
+    }
+
 
 }
 
