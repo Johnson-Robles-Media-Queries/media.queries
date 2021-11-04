@@ -12,11 +12,10 @@
 
 ul {
     list-style-type: none;
+    list-style-position: inside;
 }
 
 li a {
-    margin: auto;
-    padding: 1em;
     text-align: center;
 }
 
@@ -24,9 +23,10 @@ li a {
     margin: auto;
 }
 
-body {
+body{
     text-align: center;
 }
+
 
 section {
     text-align: left;
@@ -37,7 +37,7 @@ section {
 h1 {
     width: fit-content;
     position: absolute;
-    top: 25px;
+    top: 30px;
     font-size: 45px;
     margin: 0;
 }
@@ -77,8 +77,12 @@ h1 {
 
 
    }
-    body{
-        margin: 2px
+    body, html {
+        margin-left:1%;
+        margin-right:1%;
+        margin-bottom:1%;
+        margin-top:1%;
+    }
     }
 
 
